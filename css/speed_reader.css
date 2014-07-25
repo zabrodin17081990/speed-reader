@@ -4,7 +4,7 @@
 
 .work_space_wrapper {
     margin: 20px auto;
-    width: 240px;
+    width: 540px;
 
 }
 
@@ -12,8 +12,8 @@
     border: 1px solid gray;
     background-color: #dfa;
     padding: 10px 20px;
-    width: 200px;
-    height: 150px;
+    width: 500px;
+    height: 250px;
     vertical-align: middle;
     display: table-cell;
     font-size: 32px;

@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv='content-type' content='text/html; charset=utf-8' />
-	<title>Speed Reader</title>
+    <meta http-equiv='content-type' content='text/html; charset=utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Speed Reader</title>
+    <link type="text/css" href="jquery-ui-1.11.0/jquery-ui.min.css" rel="stylesheet" />
     <link type="text/css" href="css/speed_reader.css" rel="stylesheet" />
     <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="jquery-ui-1.11.0/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/speed_reader.js"></script>
 </head>
 <body>
     <div class="work_space_wrapper">
-	    <div class="work_space">
-            Test message for output
-        </div>
+        <div class="work_space"></div>
     </div>
+    <input type="number" id="interval"> interval<br/>
+    <input type="number" id="maxSymbols"> max symbols<br/>
+    <input type="number" id="offset"> from <span id="fullTextWordsCount"></span><br/>   
+    <textarea id="fullText"></textarea>
+    <input type="button" value="start" id="startReader" />
+    <input type="button" value="break" id="breakReader" />
 </body>
 </html>
