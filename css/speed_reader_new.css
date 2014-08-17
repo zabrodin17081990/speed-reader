@@ -2,3 +2,11 @@
 	margin-top: 10px;
 	font-size: 24px;
 }
+
+.read-progress-slider .ui-slider-range {
+	background: #8ae234;
+}
+
+.read-progress-slider .ui-slider-handle {
+	border-color: #8ae234;
+}
